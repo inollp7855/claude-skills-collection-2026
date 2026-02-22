@@ -89,14 +89,6 @@ These samples follow the official Agent Skills specification.
 
 ---
 
-## ⚙️ Why the Pre-built Executable is Larger
-
-The provided `skills-manager.exe` in the archive is **statically linked** with all dependencies (including file system libraries and YAML parsers) and **embeds the sample skills** for offline installation. This results in a larger file size but guarantees compatibility on any Windows 10/11 system without requiring additional runtimes.
-
-If you prefer a minimal version, you can compile the source code yourself using the instructions in `BUILD.md`. The compiled binary will be much smaller but will not include embedded resources.
-
----
-
 ## 📜 License
 MIT License – educational purposes only.
 
