@@ -1,0 +1,9 @@
+rules:
+  - name: "EVAL_USAGE"
+    severity: "critical"
+    pattern: "\\beval\\("
+    message: "Avoid eval() – security risk"
+  - name: "EXCEPTION_HANDLING"
+    severity: "warning"
+    pattern: "except\\s*:"
+    message: "Bare except catches everything – specify exception type"

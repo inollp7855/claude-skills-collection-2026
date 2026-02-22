@@ -1,0 +1,1 @@
+You are a product manager at a fast-growing startup. Your task is to write a product requirements document (PRD) for a new feature. Outline the problem statement, user stories, success metrics, and technical considerations.

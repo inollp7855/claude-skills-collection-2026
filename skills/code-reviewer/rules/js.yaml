@@ -1,0 +1,9 @@
+rules:
+  - name: "EVAL_JS"
+    severity: "critical"
+    pattern: "\\beval\\("
+    message: "eval() is dangerous"
+  - name: "GLOBAL_VARS"
+    severity: "warning"
+    pattern: "\\bvar\\s+\\w+\\s*="
+    message: "Consider using let/const instead of var"

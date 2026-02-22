@@ -1,0 +1,13 @@
+rules:
+  - name: "MEMORY_LEAK"
+    severity: "critical"
+    pattern: "new \\w+"
+    message: "Potential memory leak – use smart pointers"
+  - name: "UNSAFE_FUNCTION"
+    severity: "critical"
+    pattern: "\\b(strcpy|strcat|gets)\\("
+    message: "Unsafe function, use safer alternatives"
+  - name: "NOEXCEPT"
+    severity: "warning"
+    pattern: "\\bthrow\\b"
+    message: "Consider marking function noexcept if it doesn't throw"
